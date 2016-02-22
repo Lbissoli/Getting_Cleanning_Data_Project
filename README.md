@@ -40,15 +40,6 @@ The dataset is then divided in two parts and they can be used separately.
 -  subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 -  subject_test.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-Below, follow details of the files and data defined in R.
-subject_train.txt = tableSubTrain
-subject_test.txt = tableSubTest
-Y_train.txt = tableActTrain
-Y_test.txt = tableActTest
-X_train.txt = tableTrain
-X_test.txt = tableTest
-features.txt = tableFeaturesNames
-activity_labels.txt = tableActLabels
 
 # Transformation details
 1.	Select all files and Merges the training and the test sets. After, it will combine results and texts to generate a data set.
